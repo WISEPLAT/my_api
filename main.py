@@ -1,6 +1,9 @@
 # pip install flask-restful
 # http://127.0.0.1:5000/hi http://127.0.0.1:5000/hi/ http://127.0.0.1:5000/hi/2
 # to test:
+# curl -X GET http://127.0.0.1:5000/hi/3
+# curl -X DELETE http://127.0.0.1:5000/hi/4
+# curl -X POST -d "{\"text\":\"valtext\", \"lang\":\"zz\"}" -H "Content-Type: application/json" http://127.0.0.1:5000/hi/5
 # curl -X PUT -d "{\"text\":\"val text dksh\", \"lang\":\"oo\"}" -H "Content-Type: application/json" http://127.0.0.1:5000/hi/5
 # in windows please use double quotes!!! and slash
 
